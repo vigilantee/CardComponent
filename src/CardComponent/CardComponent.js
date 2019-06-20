@@ -15,7 +15,7 @@ class CardComponent extends React.Component {
   }
   handleIncreament() {
     this.setState({
-      count: this.state.count + 2
+      count: this.state.count + 1
     });
   }
   handleDecreament() {
